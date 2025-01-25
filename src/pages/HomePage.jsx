@@ -22,7 +22,7 @@ function HomePage() {
   return (
     <div className="w-full h-screen bg-gray-100 flex flex-col items-center justify-center">
       {/* Image Carousel Section */}
-      <div className="relative w-full max-w-5xl h-[100vh] mx-auto bg-white shadow-md rounded-md overflow-hidden group">
+      <div className="relative w-full max-w-5xl h-[100vh] mx-auto py-4 bg-white shadow-md rounded-md overflow-hidden group">
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{
@@ -34,7 +34,7 @@ function HomePage() {
               <img
                 src={image}
                 alt={`Slide ${index}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
           ))}

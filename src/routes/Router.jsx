@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import HomePage from "../pages/HomePage";
 import AboutUsPage from "../pages/AboutUsPage";
 import AdmissionPage from "../pages/AdmissionPage";
+import PagenotFound from "../pages/404";
 
 const AppRoutes = () => {
   return (
@@ -12,6 +13,7 @@ const AppRoutes = () => {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="*" element={<PagenotFound />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/admissions" element={<AdmissionPage />} />
       </Routes>

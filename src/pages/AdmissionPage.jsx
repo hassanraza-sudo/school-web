@@ -189,15 +189,6 @@ const AdmissionPage = () => {
             </button>
           </form>
         </section>
-
-        <section className="mb-8" id="contact">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact Us</h2>
-          <p className="text-gray-600">Phone: 0301-2984495</p>
-          <p className="text-gray-600">Email: bps345@gmail.com</p>
-          <p className="text-gray-600">
-            Address: Beacon Public High School, Bhiria City
-          </p>
-        </section>
       </div>
     </div>
   );
