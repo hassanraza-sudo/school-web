@@ -1,0 +1,20 @@
+{
+  "sqltools.connections": [
+    {
+      "pgOptions": {
+        "ssl": {
+          "rejectUnauthorized": true
+        }
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "School web",
+      "database": "postgres",
+      "username": "postgres",
+      "password": "root",
+      "connectionTimeout": 30
+    }
+  ]
+}
