@@ -106,6 +106,19 @@ const AboutUsPage = () => {
               Contact
             </button>
           </div>
+          <div className="team-member text-center bg-white shadow-md p-4 rounded-lg">
+            <img
+              className="w-24 h-24 mx-auto rounded-full mb-4"
+              src="https://w7.pngwing.com/pngs/282/86/png-transparent-girl-lady-user-woman-famous-character-flat-icon.png"
+              alt="Teacher"
+            />
+            <h3 className="text-xl font-bold">Ms. Zahra Junejo</h3>
+            <p className="text-gray-800">Co-ordinator</p>
+            <p className="text-gray-600">M.A management science</p>
+            <button className="mt-4 px-4 py-2 bg-gray-800 text-white rounded-lg">
+              Contact
+            </button>
+          </div>
         </div>
       </section>
     </div>
